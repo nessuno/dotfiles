@@ -5,7 +5,7 @@
 
 #   Set the special path var as a unique list
 typeset -U path
-path=( ~/bin/sys $path )
+path=( ~/bin/sys /usr/local/bin $path )
 
 #
 #   Set window title
