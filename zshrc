@@ -41,8 +41,15 @@ unsetopt AUTO_REMOVE_SLASH
 #   My prompts 
 
 #PROMPT="[%n]@[%M]:%~%# "
+#PROMPT="[%{$fg[blue]%}%n%{$reset_color%}]@[%M] [ %{$fg[magenta]%}%~%{$reset_color%} ] > "
+#PROMPT="[%{$fg[blue]%}%n%{$reset_color%}]@[%M] [ %{$fg[magenta]%}%~%{$reset_color%} ]» "
 #PROMPT="[%{$fg[blue]%}%n%{$reset_color%}]@[%M] [ %{$fg[magenta]%}%~%{$reset_color%} ]$prompt_newline» "
 PROMPT="┌[%{$fg[blue]%}%n%{$reset_color%}]@[%M] [ %{$fg[magenta]%}%~%{$reset_color%} ]$prompt_newline└> "
+
+#
+#   Remember to generate dircolors on the box w/ the colour scheme you want to
+#   use.
+#
 
 #
 #   GNU dircolors on a mac
